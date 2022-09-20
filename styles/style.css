@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    background-color: #5e17eb;
+    height: 70px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30%;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 20px;
+}
+.banner {
+    width: 100%;
+}
+.mision {
+    width: 100%;
+}
+.vision {
+    width: 100%;
+}
+h7.mision {
+    font-size: smaller;
+    line-height: normal;
+    color: white;
+    background-color: red;
+    border-width: 10px;
+}
+h7.vision {
+    font-size: smaller;
+    line-height: normal;
+    color: white;
+    background-color: #5e17eb;
+    border-width: 10px;
+}
