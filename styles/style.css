@@ -22,25 +22,34 @@ h1 {
     text-align: center;
     margin-top: 30%;
 }
-.nav{
+
+.nav {
     text-align: center;
     width: 100%;
     margin-left: auto;
+}
+
+.nav-pills{
+    align-content: left;
 }
 
 .logo {
     height: 60px;
     padding-left: 25px;
 }
+
 .banner {
     width: 100%;
 }
+
 .mision {
     width: 100%;
 }
+
 .vision {
     width: 100%;
 }
+<<<<<<< HEAD
 .estudiantes2{
     width: 100%;
 }
@@ -53,6 +62,9 @@ h1 {
 .actividadR{
     color: white;
 }
+=======
+
+>>>>>>> 42b00638f6b36009d7acdd55c1cb88ea71ffd265
 h7.mision {
     font-size: smaller;
     line-height: normal;
@@ -60,6 +72,7 @@ h7.mision {
     background-color: red;
     border-width: 10px;
 }
+
 h7.vision {
     font-size: smaller;
     line-height: normal;
@@ -68,6 +81,7 @@ h7.vision {
     border-width: 10px;
 }
 
+<<<<<<< HEAD
 body {
     margin: 0;
     font-family: var(--bs-body-font-family);
@@ -80,3 +94,20 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
+=======
+ul.mas_vision {
+    font-size: smaller;
+    line-height: normal;
+    color: white;
+    background-color: #5e17eb;
+    border-width: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 90px;
+    background: #da0a21;
+    ;
+}
+>>>>>>> 42b00638f6b36009d7acdd55c1cb88ea71ffd265

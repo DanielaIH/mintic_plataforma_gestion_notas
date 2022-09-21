@@ -1,0 +1,87 @@
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color:#5e17eb;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+.rosario{
+    width: 50%;
+    display: flex;
+}
+.super{
+    width: 30%;
+    display: flex;
+    float: right;
+}
+
+
+a.btn1{
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+    margin: 15px 13px;
+    color: black;
+    text-decoration: none;
+}
+a.btn1:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+}
+
+a.btn2{
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+    margin: 15px 13px;
+    color: black;
+    text-decoration: none;
+}
+a.btn2:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+}
+
+a.btn3{
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+    margin: 15px 13px;
+    color: black;
+    text-decoration: none;
+}
+a.btn3:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+}
+.rosario{
+    width: 50%;
+    display: flex;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 90px;
+    background:#da0a21;;
+}
+h3.contacto{
+    color: white;
+}
+
