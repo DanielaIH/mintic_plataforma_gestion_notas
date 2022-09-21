@@ -11,25 +11,34 @@ h1 {
     text-align: center;
     margin-top: 30%;
 }
-.nav{
+
+.nav {
     text-align: center;
     width: 100%;
     margin-left: auto;
+}
+
+.nav-pills{
+    align-content: left;
 }
 
 .logo {
     height: 50px;
     padding-left: 20px;
 }
+
 .banner {
     width: 100%;
 }
+
 .mision {
     width: 100%;
 }
+
 .vision {
     width: 100%;
 }
+
 h7.mision {
     font-size: smaller;
     line-height: normal;
@@ -37,10 +46,27 @@ h7.mision {
     background-color: red;
     border-width: 10px;
 }
+
 h7.vision {
     font-size: smaller;
     line-height: normal;
     color: white;
     background-color: #5e17eb;
     border-width: 10px;
+}
+
+ul.mas_vision {
+    font-size: smaller;
+    line-height: normal;
+    color: white;
+    background-color: #5e17eb;
+    border-width: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 90px;
+    background: #da0a21;
+    ;
 }
