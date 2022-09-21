@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignacion de actividades</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="col-11">
+            <div class="actividadR">
+                <br>
+                <a>
+                    <h3>Registro de Actividades
+                    </h3>
+                </a>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-10">
+            
+        </div>
+    <div class="col-xs">
+        <ul class="nav nav-pills ml-auto">
+        <li class="nav-item">
+        
+        <a href="profesor.html" 
+            class="nav-link active" 
+            aria-current="page">
+                Inicio
+        </a>
+        </li>
+        </ul>
+    </div>
+    </div>
+    </header>
+
+    <div class="col-6">
+        <img class="logo" src="styles/images/logo.png" class="rounded float-start"/>
+        <br><br><br>
+    </div>
+
+    <!--Tabla ingreso actividades-->
+    <div class="tablaactividad">
+        <div class="row">
+            <div class="mb-2">
+                <div class="col-5">
+                    <label for="formGroupExampleInput" class="textoactividad">Nombre de la actividad</label>
+                </div>
+                    <input type="text" 
+                        class="form-control" 
+                        id="formGroupExampleInput" 
+                        placeholder="Ejemplo Actividad 1...">
+                    <br>
+                    <label for="validationTooltip04" 
+                        class="form-label">
+                            Semestre
+                    </label>
+                    <select class="form-select"
+                                 id="validationTooltip04" required>
+                        <option selected disabled value="">
+                            mas...</option>
+                        <option>Primer semestre</option>
+                        <option>Segundo semestre</option>
+                        <option>Tercer semestre</option>
+                        <option>Cuarto semestre</option>
+                        <option>Quinto semestre</option>
+                        <option>...</option>
+                    </select>
+                    <br>
+                    <label for="validationDefault01" 
+                        class="form-label">
+                            Codigo de la clase
+                    </label>
+                    <input type="text" 
+                        class="form-control" 
+                        id="validationDefault01" 
+                        value="ejemplo #21456..." required>
+                    <br>
+                    <label for="exampleFormControlTextarea1">
+                        Descripcion
+                    </label>
+                    <textarea class="form-control" 
+                        id="exampleFormControlTextarea1" 
+                        rows="7">
+                    </textarea>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">
+                            Archivo
+                        </label>
+                    <input type="file" 
+                        class="form-control-file" 
+                        id="exampleFormControlFile1">
+                    <br><br>
+                    <button type="button" class="btn btn-primary btn-sm">Asignar</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Editar</button>
+            </div>
+        </div> 
+    </div>       
+    <!--Final de la Tabla-->
+    
+</body>
+</html>

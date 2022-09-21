@@ -1,12 +1,23 @@
 header {
     width: 100%;
     background-color: #5e17eb;
-    height: 70px;
+    height: 80px;
     border-bottom: 1px solid #CCCCCC;
     display: flex;
-    align-items: center;
+    align-items: right ;
 }
-
+.bi-house-door{
+    width: 90%;
+    height: 40px;
+    padding-left: 40px;
+}
+ 
+.tablaactividad{
+    text-align: center;
+    height: 400px;
+    padding-left: 400px; 
+    width: 70%;   
+}
 h1 {
     text-align: center;
     margin-top: 30%;
@@ -18,8 +29,8 @@ h1 {
 }
 
 .logo {
-    height: 50px;
-    padding-left: 20px;
+    height: 60px;
+    padding-left: 25px;
 }
 .banner {
     width: 100%;
@@ -29,6 +40,18 @@ h1 {
 }
 .vision {
     width: 100%;
+}
+.estudiantes2{
+    width: 100%;
+}
+.estatua {
+    width: 70%;
+}
+.profesor {
+    width: 80%;
+}
+.actividadR{
+    color: white;
 }
 h7.mision {
     font-size: smaller;
@@ -44,3 +67,16 @@ h7.vision {
     background-color: #5e17eb;
     border-width: 10px;
 }
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
