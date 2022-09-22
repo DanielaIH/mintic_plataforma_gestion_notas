@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-PlataformaNotas</title>
+  <link rel="stylesheet" href="styles/styleslogin.css">
+  <script src="login.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="row">
+      <div class="col-12">
+      </div>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-12">
+      <img class="logo" src="styles/images/logo.png" class="rounded float-start" />
+    </div>
+  </div>
+
+  <div class="col">
+    <img class="logousuario" src="styles/images/usuariologin.png" class="rounded float-start" />
+  </div>
+
+  <form action="" method="get" name="formRegistro" onsubmit="event.preventDefault()">
+    <fieldset>
+      <div>
+        <!-- <label class="input" for="">Username</label>-->
+        <input class="input" type="text" placeholder="Usuario" name="" id="txtUsuario">
+        <br>
+        <!-- <label  class="input" for="">Password</label>-->
+        <input class="input" type="password" placeholder="Contraseña" name="" id="txtPassword">
+      </div>
+      <br>
+      <label class="custom-radio-checkbox">
+        <!-- Input oculto -->
+        <input class="custom-radio-checkbox__input" type="checkbox" name="genero" value="hombre">
+        <!-- Imagen en sustitucion -->
+        <span class="custom-radio-checkbox__show custom-radio-checkbox__show--checkbox"></span>
+        <!-- Texto -->
+        <span class="custom-radio-checkbox__text">Recuerdame</span>
+      </label>
+      <br>
+      <br>
+      <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+        <a target="_blank" class="small" href="recordarpassword.html">Olvidaste la contraseña?</a>
+      </div>
+      <br><br>
+      <button id="idButton" type="submit" value="Enviar" onclick="validarformulario()">Ingresar</button>
+    </fieldset>
+  </form>
+  <br>
+  <footer>
+    <div class="row">
+      <div class="col-12">
+      </div>
+    </div>
+    <a target="_blank" href="politica.html">Conoce nuestra politica de proteccion de datos</a> &nbsp &nbsp
+    <br><br>
+    <div class="copyright">
+      <p> © Copyright | Diseñado y desarrollado por @Equipo 10 NRC2112 | Todos los derechos reservados</p>
+    </div>
+  </footer>
+</body>
+
+</html>
