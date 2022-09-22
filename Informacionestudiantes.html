@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+    <link rel="stylesheet" href="styles/style_estudiantes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+<header>
+<div class="col -11"></div>
+    <div class="row">
+        <div class="col-10">
+        </div>
+        <div class="col-xs">
+          <ul class="nav nav-pills ml-auto">
+              <li class="nav-item">
+                  <a href="#" class="nav-link active" aria-current="page">Inicio
+                      </a>
+                  </li>
+              </ul>
+        </div>
+      </div>
+  </header>
+
+          <div class="row">
+            <div class="col-30">
+              <img class="logo" src="styles/images/logo.png" class="rounded float-start"/>
+              <br>
+              <br>
+              <br>
+             <div class="nav info">
+              <h2 class="info">Datos personales </h2>
+            </div>
+         </div>
+
+<div>
+<table>
+<form action="mailto:pepe@pepe.es" method="post" enctype="text/plain" name="datospersonales">
+<tr>
+<td>
+<label for="nombre">Nombre:</label>
+<input type="text" name="nombre" id="nombre">
+</td>
+<td>
+<label for="pmrapellido">Primer apellido:</label>
+<input type="text" name="pmrapellido" id="pmrapellido">
+</td>
+<td>
+<label for="sgdoapellido">Segundo apellido:</label>
+<input type="text" name="sgdoapellido" id="sgdoapellido">
+</td>
+<td colspan="2">
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+    <option value="nobinari">No binari</option>
+    </select>
+
+</td>   
+</tr>
+<tr>
+    <td colspan="2">
+        <label for="tipdocumento">Tipo de documento:</label>
+        <select id="tipdocumento" name="tipdocumento">
+        <option value="tidentidad">Tarjeta de identidad</option>
+        <option value="cciudadania">Cedula de ciudadanica</option>
+        <option value="pasaporte">Pasaporte</option>
+        </select>
+    </td>  
+<td>
+    <label for="numerodocumento">Numero de documento:</label>
+    <input type="text" name="numerodocumento" id="numerodocumento">
+</td>  <!--por aqui vamos-->
+<td>
+   <label for="fechanacimiento">Fecha de nacimineto:</label>
+    <input type="date" name="fechanacimiento" step="1" min="2022-09-21" max="2013-12-31" value="2022-09-21">
+</td>
+</tr>
+
+<tr>
+<td class="mb-3">
+  <label for="email" class="form-label">Correo electronico:</label>
+  <input type="text" class="form-control" id="email" placeholder="name@example.com">
+</td>
+
+<td>
+    <label for="telfijo">Teléfono fijo:</label>
+    <input type="text" name="telfijo" id="telfijo"  maxlength="10">
+</td>
+
+<td>
+    <label for="movpersonal">Movil personal:</label>
+    <input type="text" name="movpersonal" id="movpersonal"  maxlength="10">
+</td>    <!--por aqui vamos-->
+</tr>
+
+
+<tr>
+<td>
+<label for="departamentos">Departamento:</label>
+<select id="departamentos" name="departamentos">
+<option value="amazonas">Amazonas</option>
+<option value="antioquia">Antioquia</option>
+<option value="arauca">Arauca</option>
+<option value="atlantico">Atlantico</option>
+
+<option value="bolibar">Bolivar</option>
+<option value="boyaca">Boyaca</option>
+
+<option value="caqueta">Caqueta</option>
+<option value="casanares">Casanares</option>
+<option value="cauca">Cauca</option>
+<option value="cesar">Cesar</option>
+<option value="choco">Choco</option>
+<option value="cordoba">Córdoba</option>
+<option value="cundinamarca">Cundinamarca</option>
+
+<option value="guainia">Guainia</option>
+<option value="guaviares">Guaviare</option>
+
+<option value="huila">Huila</option>
+
+<option value="guajira">La guajira</option>
+
+<option value="magdalena">Magdalena</option>
+<option value="meta">Meta</option>
+
+<option value="nariño">Nariño</option>
+<option value="nortesantander">Norte de santander</option>
+
+<option value="putumayo">Putumayo</option>
+
+<option value="quindio">Quindio</option>
+
+<option value="risaralda">Risaralda</option>
+
+<option value="san_andres">San andres y providencia</option>
+<option value="santander">Santander</option>
+<option value="sucre">Sucre</option>
+
+<option value="tolima">Tolima</option>
+
+<option value="vallecauca">Valle del cauca</option>
+<option value="vaupez">Vaupez</option>
+<option value="vichada">Vichada</option>
+
+</select>
+</td>
+
+
+<!-- <td>
+<label for="nacimiento">Fecha de nacimiento (dd/mm/aaaa):</label>
+<input type="text" name="nacimiento" id="nacimiento"  maxlength="10">
+</td> -->
+
+<td>
+    <label for="direccion">Direccion:</label>
+    <input type="text" name="direccion" id="direccion">
+</td>
+
+<td>
+    <label for="cp">Codigo Postal:</label>
+    <input type="text" name="cp" id="cp"  maxlength="5">
+</td>
+
+</tr>
+
+<!-- <td colspan="3">
+
+<input type="submit" name="enviar" id="enviar" value="Enviar">
+<input type="reset" name="borrar" id="borrar" value="Borrar todo">
+</td> -->
+
+</form>
+</table>
+</div>
+         
+</body>
+</html>

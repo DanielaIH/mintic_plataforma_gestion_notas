@@ -1,0 +1,66 @@
+/*@charset "utf-8";
+
+label { display: block;}
+table { background-color: #E7E7E7;
+  border: 1px solid #92938D;
+  width: 700px;}
+input { border: 2px solid #8CA8C0;}
+select { border: 2px solid #8CA8C0;} */
+
+
+header {
+  width: 100%;
+  background-color: #5e17eb;
+  height: 70px;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  align-items: center;
+}
+
+
+.h1 {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.nav{
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+}
+
+.logo {
+  height: 100px;
+  padding-left: 15px;
+  
+}
+.banner {
+  width: 100%;
+}
+
+div { margin:auto;
+ width: 710px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+ background-color: #F6F6F6;}
+ input[name="nombre"] { width: 110px;}
+input[name="pmrapellido"] { width: 300px;}
+input[name="sgdoapellido"] {width: 300px;}
+input[name="sexo"] { width: 365px;}
+input[name="tipdocumento"] {width: 365;}
+input[name="numerodocumento"] {width: 300px;}
+input[name="fechanacimiento"] { width: 90px;}
+input[name="email"] { width: 95px;}
+input[name="telfijo"] { width: 95px;}
+input[name="movpersonal"] { width: 95px;}
+input[name="departamentos"] { width: 365px;}
+
+input[name="cp"] { width: 55px;}
+input[name="telf"] { width: 95px;}
+input[name="enviar"] { float:right;}
+input[name="borrar"] { float:right;
+      margin-right: 5px;}
+h1 { background-color: #E2E2E4;
+   margin-left: -10px;
+     padding-left: 10px;}
+

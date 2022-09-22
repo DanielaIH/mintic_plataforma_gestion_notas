@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    background-color:blueviolet;
+    height: 70px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30%;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+}
+
+.logo {
+    height: 100px;
+    padding-left: 15px;
+    
+}
+.banner {
+    width: 100%;
+}
+
+.estudiantes2{
+    width: 100%;
+}
